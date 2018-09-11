@@ -2,6 +2,7 @@ Pod::Spec.new do |spec|
     spec.name         = 'SwiftySRP'
     spec.version      = '2.0'
     spec.ios.deployment_target = "9.0"
+	spec.osx.deployment_target = "10.10"
     spec.license      = { :type => 'MIT', :file => 'LICENSE' }
     spec.summary      = 'Swift implementation of SRP'
     spec.homepage     = 'https://github.com/flockoffiles/SwiftySRP'
