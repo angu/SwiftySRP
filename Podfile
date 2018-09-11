@@ -1,21 +1,28 @@
 # TODO: Bump this up to iOS9
-platform :ios, '9.0'
 workspace 'SwiftySRP'
 
 abstract_target 'SwiftySRP_Base' do
     use_frameworks!
     
 	pod 'BigInt', :git => 'https://github.com/lorentey/BigInt.git', :tag => 'v3.0.0'
-    pod 'FFDataWrapper', :git => 'https://github.com/flockoffiles/FFDataWrapper.git', :tag => 'v1.0'
+    pod 'FFDataWrapper', :git => 'https://github.com/flockoffiles/FFDataWrapper.git', :tag => 'v1.2'
     
     target 'SwiftySRP' do
+	  platform :ios, '9.0'
       project 'SwiftySRP'
+	  
       
       target 'SwiftySRPTests' do
       end
     end
+	
+    target 'SwiftySRP-macOS' do
+	  platform :osx, '10.13'
+      project 'SwiftySRP'
+    end
 
     target 'SwiftySRPTestApp' do
+		platform :ios, '9.0'
         project 'SwiftySRPTestApp'
         pod 'SwiftySRP', :path => './SwiftySRP.podspec'
 
@@ -25,6 +32,7 @@ abstract_target 'SwiftySRP_Base' do
     end
 
     target 'SwiftySRPPlayground' do
+  	  platform :ios, '9.0'
       project 'SwiftySRPPlayground'
       pod 'SwiftySRP', :path => './SwiftySRP.podspec'
     end
