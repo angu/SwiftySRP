@@ -24,7 +24,6 @@
 //  SOFTWARE.
 
 import Foundation
-import FFDataWrapper
 
 /// Protocol definition for big integer types used in SRP implementation.
 public protocol SRPBigIntProtocol: Comparable

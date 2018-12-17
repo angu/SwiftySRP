@@ -24,7 +24,6 @@
 //  SOFTWARE.
 
 import Foundation
-import FFDataWrapper
 
 /// Implementation of the SRP protocol. Although it's primarily intended to be used on the client side, it includes the server side methods
 /// as well (for testing purposes).

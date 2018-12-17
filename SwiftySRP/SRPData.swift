@@ -24,7 +24,6 @@
 //  SOFTWARE.
 
 import Foundation
-import FFDataWrapper
 
 /// Protocol defining SRP intermediate data.
 public protocol SRPData: Codable

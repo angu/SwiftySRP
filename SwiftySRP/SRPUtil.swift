@@ -25,7 +25,6 @@
 
 import Foundation
 import CommonCrypto
-import FFDataWrapper
 
 /// Convenience enum to specify a hashing algorithm
 public enum CryptoAlgorithm

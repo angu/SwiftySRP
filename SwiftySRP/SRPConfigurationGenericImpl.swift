@@ -24,7 +24,6 @@
 //  SOFTWARE.
 
 import Foundation
-import FFDataWrapper
 
 /// Implementation: configuration for SRP algorithms (see the spec. above for more information about the meaning of parameters).
 struct SRPConfigurationGenericImpl<BigIntType: SRPBigIntProtocol>: SRPConfiguration

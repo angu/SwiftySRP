@@ -24,7 +24,6 @@
 //  SOFTWARE.
 
 import Foundation
-import FFDataWrapper
 
 
 /// Internal extension. For test purposes only.

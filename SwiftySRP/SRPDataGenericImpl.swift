@@ -24,7 +24,6 @@
 //  SOFTWARE.
 
 import Foundation
-import FFDataWrapper
 
 /// Specific implementation of SRP data for supported big integer types (they must conform to SRPBigIntProtocol)
 public struct SRPDataGenericImpl<BigIntType: SRPBigIntProtocol>: SRPData

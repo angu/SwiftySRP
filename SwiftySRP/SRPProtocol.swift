@@ -24,7 +24,6 @@
 //  SOFTWARE.
 
 import Foundation
-import FFDataWrapper
 
 // SPR Design spec: http://srp.stanford.edu/design.html
 // SRP RFC: https://tools.ietf.org/html/rfc5054

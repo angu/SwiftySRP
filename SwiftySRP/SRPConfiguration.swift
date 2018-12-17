@@ -24,7 +24,6 @@
 //  SOFTWARE.
 
 import Foundation
-import FFDataWrapper
 
 /// Digest (hash) function to use in SRP (used in calculations and to derive a single shared key from the shared secret).
 public typealias DigestFunc = (Data) -> Data
